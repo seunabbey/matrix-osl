@@ -55,7 +55,7 @@ body {
   margin: 0;
   background: var(--paper);
   color: var(--ink);
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.7;
   -webkit-font-smoothing: antialiased;
   transition: background-color 220ms ease, color 220ms ease;
@@ -127,7 +127,7 @@ svg {
   z-index: 12;
   background: var(--navy);
   color: #e8eef4;
-  font-size: 11px;
+  font-size: 16px;
   letter-spacing: 0.035em;
 }
 
@@ -216,7 +216,8 @@ svg {
 
 .brand__wordmark {
   position: relative;
-  padding-bottom: 12px;
+  display: inline-block;
+  padding-bottom: 19px;
   font-family: var(--font-heading);
   font-size: 17px;
   font-weight: 800;
@@ -236,10 +237,11 @@ svg {
 
 .brand__descriptor {
   position: absolute;
-  bottom: 0;
+  top: 20px;
   left: 1px;
+  white-space: nowrap;
   font-family: var(--font-body);
-  font-size: 7px;
+  font-size: 16px;
   font-weight: 600;
   letter-spacing: 0.18em;
 }
@@ -254,7 +256,7 @@ svg {
   position: relative;
   padding-block: 10px;
   color: var(--muted);
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 600;
   transition: color 160ms ease;
 }
@@ -330,7 +332,7 @@ svg {
   padding: 0 20px;
   border: 1px solid transparent;
   border-radius: 2px;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 700;
   letter-spacing: 0.01em;
   transition: transform 180ms ease, background-color 180ms ease, color 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
@@ -345,7 +347,7 @@ svg {
   min-height: 39px;
   gap: 14px;
   padding-inline: 15px;
-  font-size: 11px;
+  font-size: 16px;
 }
 
 .button--navy {
@@ -451,7 +453,7 @@ svg {
   gap: 10px;
   margin: 0 0 20px;
   color: var(--steel);
-  font-size: 10px;
+  font-size: 16px;
   font-weight: 700;
   letter-spacing: 0.14em;
   line-height: 1.4;
@@ -486,7 +488,7 @@ svg {
   max-width: 488px;
   margin: 23px 0 0;
   color: #d6e0e7;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.8;
 }
 
@@ -501,7 +503,7 @@ svg {
   display: inline-flex;
   align-items: center;
   gap: 12px;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 600;
   transition: color 160ms ease, gap 160ms ease;
 }
@@ -530,7 +532,7 @@ svg {
   align-items: center;
   gap: 7px;
   color: #e2e9ed;
-  font-size: 11px;
+  font-size: 16px;
   font-weight: 600;
 }
 
@@ -558,7 +560,7 @@ svg {
   align-items: center;
   gap: 8px;
   color: #f5c868;
-  font-size: 9px;
+  font-size: 16px;
   font-weight: 700;
   letter-spacing: 0.1em;
 }
@@ -594,7 +596,7 @@ svg {
 
 .hero__stat-label {
   color: #d3dfe7;
-  font-size: 11px;
+  font-size: 16px;
   line-height: 1.35;
 }
 
@@ -607,13 +609,13 @@ svg {
 .hero__aside > p {
   margin: 14px 0 11px;
   color: #d4dde3;
-  font-size: 11px;
+  font-size: 16px;
   line-height: 1.6;
 }
 
 .hero__aside > a {
   color: #f5c868;
-  font-size: 10px;
+  font-size: 16px;
   font-weight: 700;
 }
 
@@ -626,7 +628,7 @@ svg {
   right: 0;
   bottom: 34px;
   color: rgb(255 255 255 / 74%);
-  font-size: 10px;
+  font-size: 16px;
   letter-spacing: 0.1em;
 }
 
@@ -638,7 +640,7 @@ svg {
   align-items: center;
   gap: 11px;
   color: rgb(255 255 255 / 72%);
-  font-size: 9px;
+  font-size: 16px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
 }
@@ -681,7 +683,7 @@ svg {
   max-width: 110px;
   margin: 0;
   color: var(--muted);
-  font-size: 9px;
+  font-size: 16px;
   font-weight: 700;
   letter-spacing: 0.12em;
   line-height: 1.6;
@@ -702,7 +704,7 @@ svg {
   border: 1px solid var(--line);
   border-radius: 50%;
   color: var(--steel);
-  font-size: 9px;
+  font-size: 16px;
   font-weight: 700;
 }
 
@@ -722,13 +724,13 @@ svg {
 
 .proof-item strong {
   font-family: var(--font-heading);
-  font-size: 12px;
+  font-size: 16px;
   line-height: 1.4;
 }
 
 .proof-item small {
   color: var(--muted);
-  font-size: 9px;
+  font-size: 16px;
   line-height: 1.4;
 }
 
@@ -741,7 +743,7 @@ svg {
 .proof-strip__note {
   max-width: 130px;
   color: var(--muted);
-  font-size: 9px;
+  font-size: 16px;
   line-height: 1.6;
 }
 
@@ -794,7 +796,7 @@ svg {
   max-width: 510px;
   margin: 10px 0;
   color: var(--muted);
-  font-size: 13px;
+  font-size: 16px;
   line-height: 1.85;
 }
 
@@ -804,7 +806,7 @@ svg {
   gap: 12px;
   margin-top: 18px;
   color: var(--steel);
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 700;
   transition: gap 160ms ease, color 160ms ease;
 }
@@ -889,12 +891,12 @@ svg {
 
 .about-visual__caption strong {
   font-family: var(--font-heading);
-  font-size: 11px;
+  font-size: 16px;
 }
 
 .about-visual__caption small {
   color: var(--muted);
-  font-size: 10px;
+  font-size: 16px;
 }
 
 .about-visual__number {
@@ -904,7 +906,7 @@ svg {
   z-index: 1;
   color: #fff;
   font-family: var(--font-heading);
-  font-size: 10px;
+  font-size: 16px;
   font-weight: 700;
   letter-spacing: 0.13em;
   text-shadow: 0 1px 8px rgb(0 0 0 / 60%);
@@ -939,7 +941,7 @@ svg {
   align-items: center;
   justify-content: space-between;
   color: var(--steel);
-  font-size: 9px;
+  font-size: 16px;
   font-weight: 700;
   letter-spacing: 0.12em;
 }
@@ -950,13 +952,13 @@ svg {
 
 .purpose-card__label span {
   color: var(--muted);
-  font-size: 9px;
+  font-size: 16px;
 }
 
 .purpose-card h3 {
   margin: 21px 0 10px;
   font-family: var(--font-heading);
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 700;
   letter-spacing: -0.025em;
   line-height: 1.45;
@@ -965,7 +967,7 @@ svg {
 .purpose-card p {
   margin: 0;
   color: var(--muted);
-  font-size: 11px;
+  font-size: 16px;
   line-height: 1.7;
 }
 
@@ -978,13 +980,13 @@ svg {
 
 .values-card .eyebrow {
   margin-bottom: 10px;
-  font-size: 8px;
+  font-size: 16px;
 }
 
 .values-card h3 {
   margin: 0 0 8px;
   font-family: var(--font-heading);
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: -0.03em;
 }
 
@@ -1002,14 +1004,14 @@ svg {
   align-items: baseline;
   gap: 7px;
   color: var(--muted);
-  font-size: 9px;
+  font-size: 16px;
   line-height: 1.5;
 }
 
 .values-list li span {
   flex: none;
   color: var(--steel);
-  font-size: 8px;
+  font-size: 16px;
   font-weight: 700;
 }
 
@@ -1043,7 +1045,7 @@ svg {
   max-width: 310px;
   margin: 0 0 5px;
   color: var(--muted);
-  font-size: 12px;
+  font-size: 16px;
   line-height: 1.8;
 }
 
@@ -1094,7 +1096,7 @@ svg {
 
 .service-card__number {
   color: var(--muted);
-  font-size: 8px;
+  font-size: 16px;
   font-weight: 700;
   letter-spacing: 0.13em;
 }
@@ -1127,7 +1129,7 @@ svg {
 .service-card h3 {
   margin: 16px 0 8px;
   font-family: var(--font-heading);
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 700;
   letter-spacing: -0.03em;
   line-height: 1.4;
@@ -1136,7 +1138,7 @@ svg {
 .service-card p {
   margin: 0 0 18px;
   color: var(--muted);
-  font-size: 11px;
+  font-size: 16px;
   line-height: 1.75;
 }
 
@@ -1146,7 +1148,7 @@ svg {
   gap: 10px;
   margin-top: auto;
   color: var(--steel);
-  font-size: 10px;
+  font-size: 16px;
   font-weight: 700;
   transition: color 160ms ease, gap 160ms ease;
 }
@@ -1171,12 +1173,12 @@ svg {
 .services-footer p {
   margin: 0;
   color: var(--muted);
-  font-size: 11px;
+  font-size: 16px;
 }
 
 .services-footer .button {
   min-height: 42px;
-  font-size: 10px;
+  font-size: 16px;
 }
 
 .safety-section {
@@ -1219,7 +1221,7 @@ svg {
 .safety-kicker {
   margin: 41px 0 12px;
   color: #f5c55c;
-  font-size: 9px;
+  font-size: 16px;
   font-weight: 700;
   letter-spacing: 0.16em;
 }
@@ -1241,7 +1243,7 @@ svg {
   max-width: 370px;
   margin: 20px 0 25px;
   color: #d3dfe8;
-  font-size: 13px;
+  font-size: 16px;
   line-height: 1.85;
 }
 
@@ -1280,13 +1282,13 @@ svg {
 
 .safety-certification strong {
   font-family: var(--font-heading);
-  font-size: 11px;
+  font-size: 16px;
 }
 
 .safety-certification small {
   margin-top: 3px;
   color: #c7d3dc;
-  font-size: 9px;
+  font-size: 16px;
   line-height: 1.5;
 }
 
@@ -1321,27 +1323,27 @@ svg {
 .safety-principle__index {
   padding-top: 2px;
   color: #f6ca70;
-  font-size: 9px;
+  font-size: 16px;
   font-weight: 700;
 }
 
 .safety-principles h3 {
   margin: 0 0 3px;
   font-family: var(--font-heading);
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 700;
 }
 
 .safety-principles p {
   margin: 0;
   color: #cad5de;
-  font-size: 10px;
+  font-size: 16px;
   line-height: 1.6;
 }
 
 .safety-principle__arrow {
   color: #f5c55c;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .safety-proof {
@@ -1350,7 +1352,7 @@ svg {
   gap: 9px;
   margin: 21px 0 0;
   color: #d9e1e8;
-  font-size: 10px;
+  font-size: 16px;
 }
 
 .safety-proof__dot {
@@ -1363,7 +1365,7 @@ svg {
 
 .safety-proof strong {
   color: #f5c55c;
-  font-size: 13px;
+  font-size: 16px;
 }
 
 .safety-section__side-note {
@@ -1371,7 +1373,7 @@ svg {
   top: 50%;
   right: 15px;
   color: rgb(255 255 255 / 34%);
-  font-size: 8px;
+  font-size: 16px;
   font-weight: 600;
   letter-spacing: 0.16em;
   transform: translate(50%, -50%) rotate(90deg);
@@ -1398,7 +1400,7 @@ svg {
   max-width: 415px;
   margin-top: 20px;
   color: var(--muted);
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 1.8;
 }
@@ -1448,14 +1450,14 @@ svg {
 .contact-detail small {
   margin-bottom: 3px;
   color: var(--muted);
-  font-size: 8px;
+  font-size: 16px;
   font-weight: 700;
   letter-spacing: 0.12em;
 }
 
 .contact-detail strong {
   font-family: var(--font-heading);
-  font-size: 11px;
+  font-size: 16px;
   font-weight: 600;
   line-height: 1.65;
 }
@@ -1467,14 +1469,14 @@ a.contact-detail:hover .contact-detail__arrow {
 
 .contact-detail__arrow {
   color: var(--muted);
-  font-size: 13px;
+  font-size: 16px;
   transition: transform 160ms ease, color 160ms ease;
 }
 
 .contact-person {
   margin: 17px 0 0;
   color: var(--muted);
-  font-size: 9px;
+  font-size: 16px;
   line-height: 1.7;
 }
 
@@ -1495,7 +1497,7 @@ a.contact-detail:hover .contact-detail__arrow {
   align-items: center;
   gap: 14px;
   color: var(--steel);
-  font-size: 9px;
+  font-size: 16px;
   font-weight: 700;
   letter-spacing: 0.14em;
 }
@@ -1513,7 +1515,7 @@ a.contact-detail:hover .contact-detail__arrow {
 .form-intro {
   margin: 10px 0 20px;
   color: var(--muted);
-  font-size: 11px;
+  font-size: 16px;
 }
 
 .contact-form {
@@ -1534,7 +1536,7 @@ a.contact-detail:hover .contact-detail__arrow {
 
 .form-field label {
   color: var(--ink);
-  font-size: 10px;
+  font-size: 16px;
   font-weight: 600;
 }
 
@@ -1556,7 +1558,7 @@ a.contact-detail:hover .contact-detail__arrow {
   border-radius: 1px;
   background: var(--paper);
   color: var(--ink);
-  font-size: 11px;
+  font-size: 16px;
   transition: background-color 220ms ease, border-color 160ms ease, box-shadow 160ms ease;
 }
 
@@ -1594,7 +1596,7 @@ a.contact-detail:hover .contact-detail__arrow {
 .form-note {
   margin: -6px 0 0;
   color: var(--muted);
-  font-size: 9px;
+  font-size: 16px;
   line-height: 1.6;
 }
 
@@ -1605,7 +1607,7 @@ a.contact-detail:hover .contact-detail__arrow {
   border-left: 3px solid #4c9465;
   background: rgb(76 148 101 / 10%);
   color: var(--ink);
-  font-size: 11px;
+  font-size: 16px;
   line-height: 1.6;
 }
 
@@ -1646,7 +1648,7 @@ a.contact-detail:hover .contact-detail__arrow {
   margin: 0;
   color: #cdd8e2;
   font-family: var(--font-heading);
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
 }
@@ -1660,7 +1662,7 @@ a.contact-detail:hover .contact-detail__arrow {
 .footer-nav a,
 .footer-top-link {
   color: #d4dde5;
-  font-size: 10px;
+  font-size: 16px;
   transition: color 160ms ease;
 }
 
@@ -1683,7 +1685,7 @@ a.contact-detail:hover .contact-detail__arrow {
   place-items: center;
   border: 1px solid rgb(255 255 255 / 27%);
   color: var(--amber);
-  font-size: 14px;
+  font-size: 16px;
   transition: transform 160ms ease, border-color 160ms ease;
 }
 
@@ -1699,7 +1701,7 @@ a.contact-detail:hover .contact-detail__arrow {
   justify-content: space-between;
   gap: 14px;
   color: #b3c0ca;
-  font-size: 9px;
+  font-size: 16px;
 }
 
 .footer-bottom a {
@@ -1837,7 +1839,7 @@ a.contact-detail:hover .contact-detail__arrow {
   }
 
   .nav-link {
-    font-size: 11px;
+    font-size: 16px;
   }
 
   .hero,
@@ -1910,7 +1912,7 @@ a.contact-detail:hover .contact-detail__arrow {
   }
 }
 
-@media (max-width: 740px) {
+@media (max-width: 920px) {
   :root {
     --header-height: 68px;
     scroll-padding-top: 78px;
@@ -1925,11 +1927,11 @@ a.contact-detail:hover .contact-detail__arrow {
   }
 
   .topline {
-    font-size: 9px;
+    font-size: 16px;
   }
 
   .topline > .container > a {
-    font-size: 9px;
+    font-size: 16px;
   }
 
   .brand__mark {
@@ -1938,7 +1940,7 @@ a.contact-detail:hover .contact-detail__arrow {
   }
 
   .brand__wordmark {
-    font-size: 15px;
+    font-size: 16px;
   }
 
   .header__inner {
@@ -2001,7 +2003,7 @@ a.contact-detail:hover .contact-detail__arrow {
   .nav-link {
     padding-block: 12px;
     border-bottom: 1px solid var(--line);
-    font-size: 13px;
+    font-size: 16px;
   }
 
   .nav-link::after {
@@ -2065,7 +2067,7 @@ a.contact-detail:hover .contact-detail__arrow {
   .hero__intro {
     max-width: 450px;
     margin-top: 17px;
-    font-size: 13px;
+    font-size: 16px;
   }
 
   .hero__actions {
@@ -2079,7 +2081,7 @@ a.contact-detail:hover .contact-detail__arrow {
   }
 
   .hero__credentials span {
-    font-size: 9px;
+    font-size: 16px;
   }
 
   .hero__aside {
@@ -2125,7 +2127,7 @@ a.contact-detail:hover .contact-detail__arrow {
   .proof-strip__label {
     width: 100%;
     max-width: none;
-    font-size: 8px;
+    font-size: 16px;
   }
 
   .proof-separator {
@@ -2140,15 +2142,15 @@ a.contact-detail:hover .contact-detail__arrow {
   .proof-item__icon {
     width: 28px;
     height: 28px;
-    font-size: 8px;
+    font-size: 16px;
   }
 
   .proof-item strong {
-    font-size: 10px;
+    font-size: 16px;
   }
 
   .proof-item small {
-    font-size: 8px;
+    font-size: 16px;
   }
 
   .section {
@@ -2217,11 +2219,11 @@ a.contact-detail:hover .contact-detail__arrow {
   }
 
   .service-card h3 {
-    font-size: 13px;
+    font-size: 16px;
   }
 
   .service-card p {
-    font-size: 10px;
+    font-size: 16px;
   }
 
   .services-footer {
@@ -2318,11 +2320,11 @@ a.contact-detail:hover .contact-detail__arrow {
 
   .topline p {
     gap: 6px;
-    font-size: 8px;
+    font-size: 16px;
   }
 
   .topline > .container > a {
-    font-size: 8px;
+    font-size: 16px;
   }
 
   .hero,
@@ -2336,7 +2338,7 @@ a.contact-detail:hover .contact-detail__arrow {
 
   .hero__intro {
     max-width: 370px;
-    font-size: 12px;
+    font-size: 16px;
   }
 
   .hero__actions {
@@ -2385,7 +2387,7 @@ a.contact-detail:hover .contact-detail__arrow {
 
   .eyebrow {
     margin-bottom: 15px;
-    font-size: 9px;
+    font-size: 16px;
   }
 
   .section-title {
@@ -2393,11 +2395,11 @@ a.contact-detail:hover .contact-detail__arrow {
   }
 
   .lead {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .body-copy {
-    font-size: 12px;
+    font-size: 16px;
   }
 
   .about-visual {
@@ -2422,11 +2424,11 @@ a.contact-detail:hover .contact-detail__arrow {
   }
 
   .about-visual__caption strong {
-    font-size: 10px;
+    font-size: 16px;
   }
 
   .about-visual__caption small {
-    font-size: 8px;
+    font-size: 16px;
   }
 
   .purpose-grid {
@@ -2449,7 +2451,7 @@ a.contact-detail:hover .contact-detail__arrow {
   }
 
   .values-list li {
-    font-size: 9px;
+    font-size: 16px;
   }
 
   .services-grid {
@@ -2462,11 +2464,11 @@ a.contact-detail:hover .contact-detail__arrow {
   }
 
   .service-card h3 {
-    font-size: 15px;
+    font-size: 16px;
   }
 
   .service-card p {
-    font-size: 11px;
+    font-size: 16px;
   }
 
   .safety-layout {
@@ -2479,7 +2481,7 @@ a.contact-detail:hover .contact-detail__arrow {
   }
 
   .safety-details__intro {
-    font-size: 15px;
+    font-size: 16px;
   }
 
   .safety-principles article {
@@ -2488,11 +2490,11 @@ a.contact-detail:hover .contact-detail__arrow {
   }
 
   .safety-principles h3 {
-    font-size: 11px;
+    font-size: 16px;
   }
 
   .safety-principles p {
-    font-size: 9px;
+    font-size: 16px;
   }
 
   .safety-section__side-note {
@@ -2528,7 +2530,7 @@ a.contact-detail:hover .contact-detail__arrow {
   }
 
   .contact-detail strong {
-    font-size: 10px;
+    font-size: 16px;
   }
 
   .footer-main {
@@ -2538,7 +2540,7 @@ a.contact-detail:hover .contact-detail__arrow {
   }
 
   .footer-tagline {
-    font-size: 10px;
+    font-size: 16px;
   }
 
   .footer-nav {
@@ -2547,11 +2549,11 @@ a.contact-detail:hover .contact-detail__arrow {
 
   .footer-nav a,
   .footer-top-link {
-    font-size: 9px;
+    font-size: 16px;
   }
 
   .footer-bottom {
-    font-size: 8px;
+    font-size: 16px;
   }
 
   .back-to-top {
